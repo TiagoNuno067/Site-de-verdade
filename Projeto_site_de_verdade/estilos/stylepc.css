@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 792px) {
+    #menuclicar {
+        display: none;}
+
+    nav {display: block; 
+        padding: 0%;
+        background-color: rgba(194, 255, 235, 0);
+        margin-right: 100px; }
+
+    ul {
+        display: flex;
+       }
+    
+    a {
+        font-weight: bold;
+     font-size: 1.1em;}
+    
+     nav a:hover {
+        text-decoration: none;
+         color: rgb(9, 187, 187); 
+         transition: 1s;}
+   
+         .destaque {
+        color:#ffffff; 
+        background-color: #77D8EE; 
+        padding: 10px; 
+        border-radius: 19px;}
+
+        
+        .vida h1 {padding-left: 20px;}
+
+        .jogo {width: 300px;}
+
+        .jogo img {width: 100%; border-radius: 10px; border:1px solid black}
+
+        .vida {display: flex; padding: 10px; margin: auto;}
+}
