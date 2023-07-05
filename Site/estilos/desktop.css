@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@media  screen and (min-width: 992px) {
+    #parte {display: flex; 
+        align-items: center; 
+        padding: 50px; 
+        width: 80%; 
+        margin: auto;
+        text-align: left; transition: 1s;}
+    
+    .text > h1 {font-size: 2em; padding-bottom: 10px;}
+    .imagem > img {width: 350px; height: 350px; border-radius:0%; } 
+
+    .menu{display: none;}
+    .top-header {background-color: red; display: none;}
+    nav { text-align: right; padding: 30px;}
+    ul {display: inline; height: 50px; width: 100px; margin: auto; background-color: rgba(0, 0, 255, 0); padding-left: 40px; border-radius: 0%;}
+    ul > a {display: inline; font-size: 1em; padding: 10px; }
+    .destaque {background-color: rgb(0, 81, 255); border-radius: 10px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.322);}
+
+}

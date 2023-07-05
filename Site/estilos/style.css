@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;}
+
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;600&family=Sriracha&display=swap');
+
+
+ul > a {
+    display: block; 
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 2em; 
+    font-weight: bold; 
+    text-transform: uppercase;
+    }
+
+ul > a:hover {
+    color: aquamarine;
+    transition: 1s;
+}
+
+ul {padding-bottom: 2%; background-color: #417bf7; height: 100vh; display: none; width: 50%; border-radius: 20px;}
+
+header {background-image: linear-gradient(to right, #417bf7, #2f82ff);}
+.top-header 
+    {display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+     width: 80%; 
+    margin: auto; 
+    color: white;}
+
+.menu {padding: 10px}
+
+.menu:hover {cursor: pointer;}
+
+.banner 
+    {padding: 10px;
+     width: 80%;
+     margin: auto;
+    padding-top: 10%;
+    }
+
+.banner-text > h2{
+    font-size: 2em; 
+    padding-bottom: 10px; 
+    color: white; }
+
+.banner-text > h3 {padding-left: 4px; color: rgba(255, 255, 255, 0.808);}
+
+.banner-text > p {
+    width: 90%; 
+    padding-top: 10px; 
+    padding-bottom: 30px;
+     color: white;
+    font-weight: bold; 
+    }
+
+.banner-text > a {
+    text-decoration: none; 
+    background-color: rgb(54, 255, 47); 
+    color: white; 
+    font-weight:bolder; 
+    padding: 10px;
+    border-radius: 5px;}
+
+.banner-text > a:hover {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.493);
+    transition: 0.9s;
+}
+
+.banner-text {padding: 20px;}
+
+.imagem > img {width: 200px; height: 200px; border-radius: 10px;} 
+
+#parte {width: 100%; margin: auto; text-align: center; transition: 1s;}
+
+.text {padding: 10px;}
+
+.text > h1 {font-size: 2em;}
+
+.text > p {line-height: 30px; padding-top: 10px;}
