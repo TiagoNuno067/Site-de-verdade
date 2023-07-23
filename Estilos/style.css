@@ -1,0 +1,28 @@
+@charset "UTF-8"; 
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@200;600&family=Roboto:ital,wght@0,500;1,400&display=swap');
+
+
+div { 
+    background-image: linear-gradient(to right, #13678A,#45C4B0); 
+    width: 600px; 
+    height: 400px
+    ;
+    margin: auto;
+    border-radius: 10px;}
+
+div h1 {
+    font-family: 'Inter', sans-serif;
+    padding: 10px; 
+    color:white; 
+    font-size: 3em;
+    text-transform: uppercase;}
+
+strong {color: rgb(229, 255, 0);}
+
+div p {font-family: 'Inter' ; 
+    padding: 10px; 
+    color:#f4fdec;  
+    font-size: 1.3em; 
+    text-indent: 5px;
+     width: 400px; }
